@@ -1,0 +1,92 @@
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 60px;
+    padding-left: 100px;
+    /* background: linear-gradient(to right, #0066cc, #00cc99); */
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  .text-content {
+    text-align: left;
+  }
+  
+  .text-content h1, .text-content h2, .text-content h3 {
+    margin: 0;
+  }
+  
+  .text-content h1 {
+    font-size: 3em;
+  }
+  
+  .text-content h2 {
+    font-size: 2.5em;
+  }
+  
+  .text-content h3 {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  
+  .name-highlight {
+    color: #eb6c58;
+  }
+  
+  .contact-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #6f5099;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #8f49cb;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }

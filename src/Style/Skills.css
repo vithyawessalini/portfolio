@@ -1,0 +1,62 @@
+.skills-section {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: -600px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Space between items */
+  justify-content: center;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-category {
+  width: 350px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #e0e0e0; /* Light border around each category */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  
+}
+
+
+.skills-subtitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #5d1558; /* Purple color for a more vibrant look */
+  margin-bottom: 15px;
+  text-transform: uppercase; /* Makes the text all uppercase */
+  letter-spacing: 1px; /* Adds some space between letters */
+  border-bottom: 2px solid #5d1558; /* Underline effect */
+  padding-bottom: 5px;
+}
+
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.skill-icon {
+  width: 50px; /* Set the width of the image */
+  height: 50px; /* Set the height of the image */
+  object-fit: contain; /* Ensures the images are contained without distortion */
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
