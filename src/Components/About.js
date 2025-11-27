@@ -12,13 +12,10 @@ const About = () => {
         <div className="text-content">
           <h1>About Me</h1>
           <p>
-            I am a final year IT undergraduate driven by a deep passion for technology.
-            With a self-motivated and proactive attitude, I excel in challenging and 
-            dynamic environments. I am seeking a competitive role where I can further 
-            develop my skills and make valuable contributions to a forward-thinking organization.
-            My enthusiasm for continuous learning fuels my desire to explore new areas and 
-            stay updated with the latest advancements in technology. I am committed to personal 
-            and professional growth, and I am eager to bring my dedication and expertise to a professional setting.
+           I am a Software Developer passionate about building scalable and user-focused applications.
+           With a proactive and self-driven mindset, I enjoy solving complex problems and thrive in dynamic environments. 
+           I continuously explore new technologies to enhance my expertise and stay aligned with modern development trends. 
+           I am committed to delivering high-quality work and contributing effectively to innovative, forward-thinking teams.
           </p>
           <div className="stats-container">
             <div className="stat">
@@ -40,7 +37,7 @@ const About = () => {
             <div className="timeline-content">
               <h3>B.Tech in Information Technology</h3>
               <p>Kongu Engineering College</p>
-              <p>CGPA: 8.35 (till 7th semester)</p>
+              <p>CGPA: 8.36 (till 7th semester)</p>
               <p>2021 – 2025</p>
             </div>
           </div>
