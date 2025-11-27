@@ -13,7 +13,7 @@ const Home = () => {
         <h3><Type/></h3>
         <br/>
         
-        <p>I'm an undergraduate student majoring in Information Technology<br/> at <b>Kongu Engineering College</b>, Perundurai</p>
+        <p>I'm a Software Developer, graduated with a B.Tech in Information Technology from <b>Kongu Engineering College</b>, Perundurai.</p>
         
         {/* <button className="contact-button">Contact</button> */}
       </div>
